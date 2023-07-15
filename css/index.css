@@ -1,0 +1,31 @@
+
+.albums .card:hover{
+    outline: 4px solid #ffdb4d;
+}
+
+.albums a {
+    color: grey;
+}
+
+.albums {
+    color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+    .albums {
+        margin: 0 20px;
+    }
+    .title-music {
+        text-align: center;
+    }
+}
+
+
+
+.glas {
+    height: 300px;
+    object-fit: cover;
+}

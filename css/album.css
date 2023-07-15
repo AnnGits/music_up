@@ -1,0 +1,22 @@
+.list-group-item:hover{
+    outline: 4px solid #ffdb4d;
+    z-index: 1;
+}
+
+@media (min-width: 380px) and (max-width: 600px) {
+    .card-body .card-text {
+        font-size: 12px;
+    }
+}
+
+.img-fluid {
+    height: 190px;
+    object-fit: cover;
+    margin: 5px;
+}
+
+.track {
+    border: none;
+    background-color: #fff;
+}
+
